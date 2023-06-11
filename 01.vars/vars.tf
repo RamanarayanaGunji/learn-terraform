@@ -20,12 +20,12 @@ output "sample_string1" {
 
 }
 
-variable "sample_string_rama" {
+variable "sample_string_rama1" {
   default = "Ramanarayana"
 }
 
 output "sample_string2" {
-  value ="My name is =${var.sample_string_rama}"
+  value ="My name is =${var.sample_string_rama1}"
 
 }
 
