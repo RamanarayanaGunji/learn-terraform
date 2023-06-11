@@ -19,3 +19,13 @@ output "sample_string1" {
   value ="value of sample string =${var.sample_string}"
 
 }
+
+variable "sample_string_rama" {
+  default = "Ramanarayana"
+}
+
+output "sample_string2" {
+  value ="My name is =${var.sample_string_rama}"
+
+}
+
