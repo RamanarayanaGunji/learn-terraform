@@ -50,3 +50,14 @@ variable "sample_list" {
 }
 
 # data type inside the list does not matter in terraform
+
+# We have a dictionary (or map) Meaning single variable over the iist when we declare the data
+variable "sample_dict" {
+  default ={
+   number1 =100
+   string1 ="hello raising"
+   number2=1123
+   boolean=true
+   number3=12.56
+  }
+}

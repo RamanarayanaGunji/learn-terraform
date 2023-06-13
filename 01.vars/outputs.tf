@@ -18,3 +18,14 @@ output "sample_string1" {
 output "sample_list_2" {
   value = var.sample_list[2]
 }
+
+## print the values for dictionary
+
+output "sample_dict_bool" {
+value =var.smaple_dict["boolean"]
+}
+output "sample_dict_number" {
+
+value =var.smaple_dict["number1"]
+value =var.smaple_dict["number3"]
+}
