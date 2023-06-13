@@ -34,8 +34,11 @@ variable "sample_boolean" {
 # We have list variable types, Meaning single variable can hold multiple values
 variable "sample_list" {
  default = [
- 100,"hello",true]
-
+ 100,
+ "hello",
+ true,
+ 123
+ ]
 }
 
 # data type inside the list does not matter in terraform
