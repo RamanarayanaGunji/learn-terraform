@@ -27,5 +27,5 @@ value =var.smaple_dict["boolean"]
 output "sample_dict_number" {
 
 value =var.smaple_dict["number1"]
-value =var.smaple_dict["number3"]
+
 }
