@@ -22,10 +22,9 @@ output "sample_list_2" {
 ## print the values for dictionary
 
 output "sample_dict_bool" {
-value =var.smaple_dict["boolean"]
+value =var.sample_dict["boolean"]
 }
 output "sample_dict_number" {
-
-value =var.smaple_dict["number1"]
+value =var.sample_dict["number1"]
 
 }
