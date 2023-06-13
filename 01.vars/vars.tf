@@ -66,6 +66,4 @@ variable "sample_dict" {
 ## for creating dynamic variables
 
 variable "env" {}
-variable "auto_num1"
-{
-}
+variable "auto_num1" {}
