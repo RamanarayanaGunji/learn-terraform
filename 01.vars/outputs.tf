@@ -32,3 +32,11 @@ value =var.sample_dict["number1"]
 output "env"{
 value=var.env
 }
+
+output "auto_num1"{
+value=var.auto.num1
+}
+
+
+
+
