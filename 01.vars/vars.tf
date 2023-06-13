@@ -13,6 +13,14 @@ output "sample_string2" {
   value ="My name is =${var.sample_string_rama1}"
 
 }
+variable "sample_string_rama2" {
+  default = "Lakshminarayana"
+}
+
+output "sample_string3" {
+  value ="My name is =${var.sample_string_rama2}"
+
+}
 ## 10.6 is also a number in terraform
 ## for creating number and boolean data types:
 
