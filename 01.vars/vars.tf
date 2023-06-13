@@ -61,3 +61,7 @@ variable "sample_dict" {
    number3=12.56
   }
 }
+
+## This is the preferred variable over the list when we declare the data.
+## for creating dynamic variables
+Variable 'env' {}
