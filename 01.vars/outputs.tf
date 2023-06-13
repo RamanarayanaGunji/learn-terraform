@@ -29,6 +29,6 @@ value =var.sample_dict["number1"]
 
 }
 
-output 'env'{
+output "env"{
 value=var.env
 }

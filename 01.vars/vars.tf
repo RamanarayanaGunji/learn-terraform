@@ -64,4 +64,4 @@ variable "sample_dict" {
 
 ## This is the preferred variable over the list when we declare the data.
 ## for creating dynamic variables
-Variable 'env' {}
+Variable "env" {}
