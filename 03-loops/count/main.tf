@@ -8,10 +8,10 @@ resource "null_resource" "null" {
 count =length(var.fruits)
 }
 
-provisioner "local-excec" {
+#provisioner "local-excec" {
 
-command = "echo Fruit Name - $ {var.fruits[count.index]}"
-}
+#command = "echo Fruit Name - $ {var.fruits[count.index]}"
+#}
 
 variable "fruits" {
 default = ["apple", "banana", "orange" ]
