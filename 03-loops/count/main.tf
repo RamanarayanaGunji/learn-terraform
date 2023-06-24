@@ -9,6 +9,7 @@ count =length(var.fruits)
 }
 
 provisioner "local-excec" {
+
 command = "echo Fruit Name - $ {var.fruits[count.index]}"
 }
 
