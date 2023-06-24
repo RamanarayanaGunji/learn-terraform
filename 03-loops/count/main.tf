@@ -4,7 +4,7 @@ count =10  ## second stage
 
 
 ### 3rd stage
-resource "null_resource" "null" {
+resource "null_resource" "fruits" {
 count =length(var.fruits)
 }
 
