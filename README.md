@@ -15,7 +15,7 @@
 ### Terraform variable precedence
 
 1. -var-file
-2.   *.auto.tfvars
+2.   *.auto.tfvars: env variable
 3.  terraform.tfvars
 4. ask in cli to provide input
 5. 
