@@ -12,9 +12,9 @@ provisioner "local-exec" {
 }
 variable "fruits"
 {
-default = {
+   default = {
    apple =10
    orange =200
    banana =100
-}
+  }
 }
