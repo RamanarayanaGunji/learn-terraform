@@ -10,8 +10,7 @@ provisioner "local-exec" {
 
 }
 }
-variable "fruits"
-{
+variable "fruits" {
    default = {
    apple =10
    orange =200
