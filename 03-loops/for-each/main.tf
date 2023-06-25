@@ -14,7 +14,7 @@ resource "null_resource" "fruits1" {
 for_each =var.fruits1
 
 provisioner "local-exec" {
-    command ="echo Fruit1 Name - ${each.key} -${each.value}"
+    command ="echo Fruit1 Name - ${each.key} -${each.value["count"]}"
    // ## prints number of items are giving, here out put is 3( three)
    // #command = "echo ${length(var.fruits)}"
 }
