@@ -1,7 +1,7 @@
 
 ### 3rd stage
 resource "null_resource" "fruits" {
-count =length(var.fruits)
+for_each =var.fruits
 
 provisioner "local-exec" {
     command ="echo Fruit Name - ${var.fruits[each.key]} "
