@@ -4,8 +4,9 @@ resource "null_resource" "fruits" {
 count =length(var.fruits)
 
 provisioner "local-exec" {
-    #command ="echo Fruit Name = ${var.fruits[count.index]}"
-    command = "echo ${length(var.fruits)}"
+    command ="echo Fruit Name - ${var.fruits[each.key]} "
+    ## prints number of items are giving, here out put is 3( three)
+    #command = "echo ${length(var.fruits)}"
 
 }
 }
