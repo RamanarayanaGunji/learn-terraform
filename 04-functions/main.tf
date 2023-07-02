@@ -16,3 +16,15 @@ default =["abc","xyz"]
  output "sample1" {
  value =element(var.sample1,0)
  }
+
+ ## if any input pass is not present, to avoide error we can use lookup by passing Dummy values
+ variable "sample2" {
+ default {
+  xyz=100
+  abc=200
+  }
+ }
+
+ output "sample2" {
+ value =lookup(var.sample2,"a1","Dummy/Not present")
+ }
