@@ -19,7 +19,7 @@ default =["abc","xyz"]
 
  ## if any input pass is not present, to avoide error we can use lookup by passing Dummy values
  variable "sample2" {
- default {
+ default = {
   xyz=100
   abc=200
   }
