@@ -6,3 +6,12 @@ resource "aws_instance" "web" {
     Name = "HelloWorld"
   }
 }
+
+
+
+learn-ansible
+01-print.yml
+
+
+
+
